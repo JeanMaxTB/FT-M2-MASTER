@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ![HenryLogo](https://d31uz8lwfmyn8g.cloudfront.net/Assets/logo-henry-white-lg.png)
 
 ---
@@ -45,3 +46,7 @@ __IMPORTANTE:__ Luego de completar cada una de las homeworks del día deberán e
 Extra:
 
 - [React Hooks](./13-React-Hooks)
+=======
+# FT-M2-MASTER
+Clases de Henry - Modulo 2
+>>>>>>> 89c3f4ca177a6034df124f7fdc19aaeebc07ac2b
