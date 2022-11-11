@@ -1,0 +1,17 @@
+DOM:
+    El DOM es el objeto global, aquel q controla el HTML, este alberga todos los metodos q se pueden usar con document; bueno, eso entendi, despues lo ire mejorando, saludos XD :D
+DOM element selectors: 
+    Bueno, los element selectores son metodos del DOM q se usan para identificar elementos como divs o h1 o h2, lo q sea, cualquier etiqueta; pues ella hace q pueda guardar eso en una variable, es muy util, hay 4 opociones para seleccionar, pasare a explicarlo.
+    document.getElementByClass("container")  ==>  Bueno, esto lo uso mucho, es para seleccionar una etiqueta html q tenga la clase "container"
+    document.getElementById("informacion")  ==> pues esta se usa para identificar la etiqueta html q tiene por id el texto "informacion"
+    document.querySelector(".informacion--item")  ==> esta se usa para seleccionar a clases o id´s, es de los as utiles, solo hay q tener en cuenta de q este se usa añadiendo el punto si es una clase, y el # si es un id; ademas este selector solo trae al primer elemento q se tiene de esa clase, por eso es recomendable usar mas para id´s, pero es de los mas flexibles, es de mis favoritos
+    document.querySelectorAll(".informacion--item")  ==> esta se usa para seleccionar a todas las etiquetas q tengan esa clase, no se puede con id´s, porque el id es unico, bueno, esta da como resultado un array con todos los elementos, asi q se pueden usar los metodos para arrays. Saludos XD :D
+DOM events:
+    Los eventos en DOM son formas de darle mas interactividad, ya q se usa para ejecutar funciones de acuerdo a q pase un evento o no, en este caso lo q se hace es primero seleccionar el tipo de evento q se quiere usar, voy a dar un ejemplo con el onclick, ya q es el mas comun:
+
+    const container = document.querySelector("container-1")
+    container.addEventListener("onclick", () => {
+        console.log("click en el container")
+    })
+    En este ejemplo he creado la constante container, esta apunta al div de clase container-1, despues a container le añadi un metodo llamado addEventListener q hace q si un evento se cumple, entonces la funcion callback se ejecutara, en este caso use el onclick, este es un evento q hace q cada vez q de un click en el div de clase container, esta funcion se ejecutara, y se ejecutara mostrando ese mensaje en consola. 
+    Hay varios tipos de eventos, solo queda ir jugando con los tipos q hay. Saludos XD :D
