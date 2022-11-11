@@ -140,7 +140,7 @@ function completeToDo(event) {
   // DESCOMENTAR LA SIGUIENTE LINEA
   const index = event.target.id;
   // Tu código acá:
-  index.completeToDo();
+  toDoItems[index].completeToDo();
   displayToDos();
 
 }
@@ -162,7 +162,7 @@ function completeToDo(event) {
 
 
 // Acá debes insertar la llamada a 'displayToDos'
-
+displayToDos();
 
 // ---------------------------- NO CAMBIES NADA DE ACÁ PARA ABAJO ----------------------------- //
 if (typeof module !== 'undefined') {
@@ -176,4 +176,3 @@ if (typeof module !== 'undefined') {
     addToDo: addToDo
   };
 }
-displayToDos();
