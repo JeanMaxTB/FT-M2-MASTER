@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Ubuntu";
+    font-size: 62.5%;
+}
+/* :root{
+    
+} */
+.container--nav-bar{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 63px;
+}
+.title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px 0;
+}
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.nav-bar--item {
+    list-style: none;
+}
+.nav-bar--item a {
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: black;
+}
+.nav-bar--item a:hover {
+    color: red;
+}
+.transition {
+    width: 98vw;
+    height: 80px;
+    margin: 1vh 1vw;
+    border-radius: 7px;
+    background-image: url("../img/main-header.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.intro {
+    width: 100vw;
+    height: auto;
+}
+.intro h2 {
+    width: 100vw;
+    padding-left: 7px;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.intro p {
+    width: 100vw;
+    height: 100px;
+    padding: 8px 5px;
+    line-height: 18px;
+    font-size: 1.04rem;
+    font-weight: bold;
+    color: rgb(103, 105, 106);
+}
+.music-images {
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.music-images .imagen {
+    width: 95vw;
+    height: auto;
+    border-radius: 17px;
+}
+@media only screen and (max-width: 768px){
+    .music-images .tecnologia {
+        position: relative;
+        display: none;
+    }
+    .music-images .ondas {
+        position: relative;
+        display: none;
+    }
+}
