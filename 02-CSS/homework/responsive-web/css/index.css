@@ -13,6 +13,7 @@
     flex-direction: column;
     width: 100vw;
     height: 63px;
+    align-items: center;
 }
 .title {
     font-size: 2.5rem;
@@ -22,8 +23,10 @@
 }
 .nav-bar{
     display: flex;
+    max-width: 1000px;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    gap: 15px;
 }
 .nav-bar--item {
     list-style: none;
@@ -109,4 +112,59 @@
     width: 300px;
     height: auto;
     border-radius: 17px;
+}
+.actual {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.actual .actual-text {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.actual .actual-text h3 {
+    align-self: flex-start;
+    padding: 10px 10px;
+    font-size: 2rem;
+    font-weight: bold
+}
+.actual .actual-text p {
+    padding: 8px 5px;
+    line-height: 18px;
+    font-size: 1.04rem;
+    font-weight: bold;
+    color: rgb(103, 105, 106);
+}
+.actual .actual-text button {
+    width: 300px;
+    height: 35px;
+    font-size: 1.2rem; 
+    border: 2px solid black;
+    border-radius: 7px;
+    background-color: rgb(19, 18, 18);
+    color: white;
+}
+footer{
+    display: flex;
+    width: 100vw;
+    height: 35px;
+    justify-content: center;
+    align-items: center;
+}
+footer p {
+    font-size: 1.2rem;
+}
+@media only screen and (max-width: 1024px) {
+    .nav-bar a{
+        font-size: 1.4rem;
+    }
+    .transition {
+        height: ;
+    }
+
 }
