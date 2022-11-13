@@ -1,0 +1,7 @@
+Framework:
+    Un framework es una libreria de codigo en el q ya esta hecho una parte de lo q nosotros podemos buscar, como por ejemplo, puede haber el diseño de un boton ya hecho en un framework, lo q hara q solamente necesitemos copiar el codigo o llamar el framework para tener el boton, esto puede pasar copiando solo la clase especifica de esa libreria, y aparecera el diseño, es como si hubiese un archivo gigantesco de css ya predefinido en el q ya esta hecho todo, y solo es copiar, y de ahi quiza revisando la documentacion podriamos hasta copiar el codigo y hacerlo nosotros pero con inspiracion de esta, es algo genial.
+Preprocesador:
+    Un preprocesador es un software para hacer el codigo mas legible y facil de entender y ejecutar, hay varios, entre ellos esta LESS. es interesante, pero no me gusta.
+Responsive Website:
+    Esto significa q la pagina se puede ver el distintos dispositivos, normalmente al hacerlo se tiene q tener en cuenta las distintas dimensiones q puede llegar a tener una pagina en distintos dispositivos, por eso es q hay codigo q solo se ejecuta cuando hay cierta cantidad de pixeles, normalmente se comienza con diseño mobil, y despues pasan a ordenadores, es genial, es de las cosas q mas me gustan de esto XD :DDDDD
+    
